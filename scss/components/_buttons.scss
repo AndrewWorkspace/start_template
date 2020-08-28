@@ -1,0 +1,33 @@
+/** @section Buttons */
+
+// Button General Styles
+.button {
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	font-family: $font-base;
+	font-size: 12px;
+	font-weight: 400;
+	text-transform: uppercase;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-align: center;
+	cursor: pointer;
+	vertical-align: middle;
+	user-select: none;
+	transition: 250ms all ease-in-out;
+	min-height: 49px;
+	padding: 0 10px;
+	border: none;
+	
+	> * {
+		pointer-events: none;
+	}
+}
+
+.button-block {
+	display: block;
+	width: 100%;
+}
+
+
